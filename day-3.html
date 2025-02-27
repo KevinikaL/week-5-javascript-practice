@@ -29,10 +29,19 @@
   <script>
     // Try it! 
     let f4, f5;
-
-    document.write();
+    f4 = "cranberry"
+    f5 = "apple"
+    document.write(f4 + f5);
   </script>
   <p> Try it! One more time, make up a new fruit! </p>
+  <script>
+    let f6 , f7;
+    f6 = "pineapple"
+    f7 = "orange"
+    document.write(f6 + f7);
+
+
+  </script>
   <h3>Another Example</h3>
   <p> You can use the + operator mulitple times to combine more strings. Let's improve our fruit names by inserting a
     "-" between them.</p>
@@ -46,13 +55,13 @@
   <p>
     I also like:
     <script>
-      document.write();
+      document.write(f4 + "-" + f5);
     </script>
   </p>
   <p>
     But my favorite is:
     <script>
-      document.write();
+      document.write(f6 + "-" + f7);
     </script>
   </p>
 
@@ -76,23 +85,33 @@
   <p>Try to make a fruit that is a combo of three or more fruits.</p>
   <script>
     let fruit2;
-  </script>
+    fruit2 = "banana";
+    fruit2 += "mango";
+    fruit2 += "kiwi";
+
+</script>
   <p>
     The best fruit in the world would be a...
     <script>
 
 
-      document.write();
+      document.write(fruit2);
     </script>
   </p>
   <h3>Try it!</h3>
   <p> Try one more with even more fruits combined. Bonus: can you add a "-" between the fruit names?</p>
-
+<script>
+  let fruit3;
+  fruit3 = "coconut-";
+  fruit3 +="quava-";
+  fruit3 += "blueberry-";
+  fruit3 += "peach";
+</script>
   <p>
     Really, the best is...
     <script>
 
-
+      document.write(fruit3);
 
     </script>
   </p>
